@@ -3,7 +3,7 @@ Puppet Module to manage the Zimbra Mail Server
 ##Description
 
 A Puppet module to manage the Zimbra Collaboration Suite.
-As of this moment the module is able to manage users and mailing lists.
+As of this moment the module is able to manage domains, users and mailing lists.
 To improve performance,  when prefetching the state of resources, the provider uses ldapsearch. 
 When  making configuration changes however, the zmprov utility is used to ensure date consistency-- 
 at the expense of performance.
